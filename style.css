@@ -1,0 +1,345 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  min-height: 100vh;
+  background-color: rgb(12, 12, 12);
+  margin-bottom: 0%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 50px;
+}
+
+.nav > ul {
+  display: flex;
+}
+
+.nav > h1 {
+  color: #e00874;
+  font-weight: 700px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.nav > ul > li {
+  list-style: none;
+}
+.nav > ul > li > a {
+  text-decoration: none;
+  color: #faf9f9;
+  font-size: 18px;
+  margin-right: 50px;
+  transition: color 0.3s ease;
+}
+.nav > ul > li > a:hover {
+  color: #e00874;
+}
+.nav > ul > li:last-child a {
+  margin: 0;
+}
+
+#icon > ul {
+  display: flex;
+  gap: 30px;
+  color: #ccc;
+  list-style: none;
+  transition: color 0.3s ease;
+}
+#icon > ul > li:hover {
+  color: #e00874;
+}
+.nav > button:hover {
+  color: #000000;
+  background-color: #e00874;
+}
+#parent {
+  background-image: url("home.jpg");
+  background-size: cover;
+  height: 100vh;
+  backdrop-filter: blur(0.5px);
+}
+
+#home > img {
+  height: 100vh;
+  width: 100%;
+}
+#home > h1 {
+  position: relative;
+  top: 50px;
+  padding-left: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+}
+#home > p {
+  color: rgb(255, 255, 255);
+  padding-top: 50px;
+  padding-right: 870px;
+  padding-left: 40px;
+  line-height: 30px;
+}
+#home > button {
+  position: relative;
+  top: 40px;
+  left: 200px;
+  height: 30px;
+  width: 140px;
+  font-size: 14px;
+  font-weight: 540;
+  border-radius: 5px;
+  border: none;
+}
+#home > button:hover {
+  color: #e00874;
+  background-color: rgb(207, 166, 166);
+}
+#heading-menu {
+  padding-left: 50px;
+  padding-top: 20px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 350px 350px 350px;
+  gap: 50px;
+  margin: 50px;
+}
+.menu-bg {
+  background: linear-gradient(grey, white);
+}
+.cards {
+  padding: 0px 0px 0px 30px;
+  position: relative;
+  padding: 10px;
+  padding-left: 35px;
+}
+
+.cards img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cards > h3 {
+  position: relative;
+  padding-left: 70px;
+  line-height: 30px;
+}
+.cards > h2 {
+  position: relative;
+  padding-left: 85px;
+  line-height: 40px;
+}
+.cards > button {
+  position: relative;
+  left: 70px;
+  line-height: 20px;
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.cards > button:hover {
+  background-color: rgb(239, 148, 21);
+  color: #ccc;
+}
+
+#card1 > h3 {
+  position: relative;
+  padding-left: 80px;
+  line-height: 30px;
+}
+#card4 > h3 {
+  position: relative;
+  padding-left: 50px;
+  line-height: 30px;
+}
+#card9 > h2 {
+  position: relative;
+  padding-left: 80px;
+}
+#card9 > h3 {
+  position: relative;
+  padding-left: 90px;
+}
+hr {
+  border-color: black;
+}
+
+#heading-special {
+  padding-left: 50px;
+}
+#special {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px 350px 350px;
+  gap: 30px;
+  margin: 50px;
+  height: 70vh;
+}
+
+.grids > img {
+  margin-left: 75px;
+  height: 230px;
+  width: 300px;
+  border-radius: 10px 10px;
+}
+.grids > h3 {
+  padding-left: 160px;
+  line-height: 30px;
+}
+
+.grids > h2 {
+  padding-left: 185px;
+  line-height: 30px;
+}
+.grids > button {
+  position: relative;
+  left: 170px;
+  line-height: 20px;
+  width: 100px;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+#special > .grids {
+  border-radius: 10px;
+  transition: 3s;
+}
+
+.grids > button:hover {
+  background-color: rgb(239, 148, 21);
+  color: #ccc;
+}
+.grids > img:hover {
+  /* box-shadow: 1px 1px 10px 10px #6a5861; */
+  transform: scale(1.05);
+}
+#special > p {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 370px;
+  font-size: 18px;
+  color: #000000;
+}
+#special > #sub-heading {
+  line-height: 80px;
+  padding-left: 160px;
+  font-size: 25px;
+}
+#about {
+  height: 85vh;
+}
+#heading-about {
+  padding-left: 50px;
+}
+#about > h1 {
+  font-size: 60px;
+  padding-left: 220px;
+  padding-top: 50px;
+}
+#about > p {
+  padding-top: 50px;
+  padding-right: 770px;
+  padding-left: 40px;
+  line-height: 30px;
+}
+#about > aside > img {
+  position: relative;
+  bottom: 350px;
+  height: 450px;
+  width: 700px;
+  padding-left: 800px;
+}
+#heading-contact > p {
+  position: relative;
+  top: 350px;
+  right: 25px;
+  text-align: center;
+  font-size: 24px;
+  font-family: sans-serif;
+  color: white;
+}
+#footer {
+  display: flex;
+  border: 1px solid black;
+  height: 200px;
+  justify-content: space-evenly;
+  background-color: #232222;
+  padding: 100px;
+}
+
+.useful-links > ul > li {
+  position: relative;
+  left: 20px;
+  line-height: 30px;
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.useful-links > ul > li > a {
+  color: #fffdfd;
+  text-decoration: none;
+  text-align: center;
+}
+.social-media > ul > li {
+  position: relative;
+  left: 28px;
+  line-height: 30px;
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.social-media > ul > li > a {
+  color: #fffdfd;
+  text-decoration: none;
+  text-align: center;
+}
+.mail {
+  position: relative;
+  color: #fffdfd;
+  top: 80px;
+  left: 30px;
+  line-height: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.mail > a {
+  color: white;
+  text-decoration: none;
+}
+.useful-links > ul > li:hover {
+  transform: scale(1.1);
+}
+.social-media > ul > li:hover {
+  transform: scale(1.1);
+}
+.useful-links > h2 {
+  color: #fffdfd;
+}
+.social-media > h2 {
+  color: #fffdfd;
+}
+
+.menu-bg .cards {
+  border: 1px solid rgb(249, 249, 249);
+  background-color: white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.cards:hover {
+  transform: scale(1.05);
+}
+.menu-bg .cards:hover {
+  box-shadow: 0px 0px 20px #f3f2f2;
+}
